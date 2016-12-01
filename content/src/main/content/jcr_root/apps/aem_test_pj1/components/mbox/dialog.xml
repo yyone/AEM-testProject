@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="mbox component"
+    height="640"
+    width="480"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <mboxName
+            jcr:primaryType="cq:Widget"
+            name="./mboxName"
+            fieldLabel="mbox Name"
+            fieldDescription="mbox名を入力してください"
+            xtype="textfield"/>
+        <defaultHTMLContent
+            jcr:primaryType="cq:Widget"
+            name="./defaultHTMLContent"
+            fieldLabel="Default HTML Code"
+            fieldDescription="Target結果が何も無い場合に表示させるデフォルトHTMLを入力してください。"
+            height="500"
+            xtype="textarea"/>
+    </items>
+</jcr:root>

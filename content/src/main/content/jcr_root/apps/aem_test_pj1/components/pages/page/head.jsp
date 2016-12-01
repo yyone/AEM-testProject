@@ -26,5 +26,8 @@
     <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="<%= xssAPI.getValidHref(favIcon) %>"<%=xs%>>
     <% } %>
 
+    <!-- Isobar Sandbox DTM -->
+    <script src="//assets.adobedtm.com/b289e74c035d548b146d772f9d7a139928952315/satelliteLib-0a81c2ca3b1ca8f699e69de99a0b80e5810ab184.js"></script>
+
     <title>Adobe Analytics 実装トレーニング用サイト</title>
 </head>
